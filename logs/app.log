@@ -1,0 +1,13 @@
+2025-10-19 04:05:39,681 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-19 04:05:39,681 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-19 04:06:17,914 [INFO] File saved: uploads/ed827ca2e5b64fd690a68ec9019e9f2b\4c9e959cb8504444b9cedf2587bfad11_2.jpg
+2025-10-19 04:06:17,919 [INFO] 127.0.0.1 - - [19/Oct/2025 04:06:17] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-10-19 04:06:41,671 [INFO] 127.0.0.1 - - [19/Oct/2025 04:06:41] "GET /file/1 HTTP/1.1" 200 -
+2025-10-19 04:06:56,265 [INFO] File saved: uploads\8f99766c07444f449a4f5837e2b8c4d2_killua.png
+2025-10-19 04:06:56,274 [INFO] File updated: ID=1
+2025-10-19 04:06:56,278 [INFO] 127.0.0.1 - - [19/Oct/2025 04:06:56] "PUT /file/1 HTTP/1.1" 200 -
+2025-10-19 04:07:01,122 [INFO] 127.0.0.1 - - [19/Oct/2025 04:07:01] "GET /file/1 HTTP/1.1" 200 -
+2025-10-19 04:07:05,944 [INFO] File deleted from storage: uploads\8f99766c07444f449a4f5837e2b8c4d2_killua.png
+2025-10-19 04:07:05,948 [INFO] Record deleted: ID=1
+2025-10-19 04:07:05,949 [INFO] 127.0.0.1 - - [19/Oct/2025 04:07:05] "DELETE /file/1 HTTP/1.1" 200 -

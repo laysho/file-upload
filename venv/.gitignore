@@ -1,0 +1,15 @@
+# Ignore Python cache and venv
+__pycache__/
+venv/
+*.pyc
+
+# Ignore environment and local config
+.env
+
+# Ignore uploads and logs
+uploads/
+logs/
+
+# Ignore IDE settings
+.vscode/
+.idea/
